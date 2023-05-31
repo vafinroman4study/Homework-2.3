@@ -5,8 +5,9 @@ public interface CalcService {
 
     String helloCalc();
 
-    int addition (int num1, int num2);
-    int multiplication (int num1, int num2);
+    int addition(Integer num1, Integer num2);
 
-    double division(int num1, int num2);
+    int multiplication(Integer num1, Integer num2);
+
+    double division(Integer num1, Integer num2);
 }
